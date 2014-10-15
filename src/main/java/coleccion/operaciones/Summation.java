@@ -1,8 +1,8 @@
 package coleccion.operaciones;
 
-public class Addition extends Operation {
+public class Summation extends Operation {
 
-    public Addition(final int operator1, final int operator2) {
+    public Summation(final int operator1, final int operator2) {
     	super(operator1,operator2);
     }
 
