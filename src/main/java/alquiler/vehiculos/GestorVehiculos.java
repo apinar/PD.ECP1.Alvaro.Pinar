@@ -25,8 +25,9 @@ public class GestorVehiculos {
 	
 	public String listar(){
 		String info = "";
-		
-		
+		for (Vehiculo v : vehiculos){
+			info=info + v.getId()+". "+v.getDesc()+"\n";
+		}
 		return info;
 	}
 	

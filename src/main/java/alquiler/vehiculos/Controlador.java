@@ -20,12 +20,14 @@ public class Controlador {
 	
 	
 	public void verVehiculos(){
-		IO.out.println(gv.listar().toString());		
+		IO.out.clear();
+		IO.out.println(gv.listar());		
 	}
 	
 	public void costeAlquiler(){
 		int id = (int) IO.in.select(0,gv.getId()-1,"Vehículo alquilado");
 		int dias = IO.in.readInt("Días Alquiler"); 
+		IO.out.clear();
 		IO.out.println("Precio del alquiler: "+gv.calculaPrecio(id, dias)+"€");
 	}
 

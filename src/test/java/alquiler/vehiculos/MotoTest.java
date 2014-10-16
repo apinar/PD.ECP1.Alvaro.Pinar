@@ -11,7 +11,7 @@ public void testCoste(){
 	Moto moto = new Moto (1,"Test");
 	assertEquals(40, moto.coste(5),10e-2);
 	assertEquals(56, moto.coste(7),10e-2);
-	assertEquals(77, moto.coste(10),10e-2);
+	assertEquals(70, moto.coste(10),10e-2);
 	
 }
 	

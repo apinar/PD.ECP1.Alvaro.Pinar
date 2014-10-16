@@ -14,7 +14,7 @@ public class Moto extends Vehiculo{
 		if (dias <= 7) {
 			result= dias * precio_standard;
 		} else {
-			result = 7 * precio_standard + (dias-7) * precio_rebaja;
+			result = dias *  precio_rebaja;
 		}
 		return result;
 	}
