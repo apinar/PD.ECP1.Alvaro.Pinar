@@ -6,16 +6,16 @@ public class Controlador {
 	private GestorVehiculos gv = new GestorVehiculos();
 	
 	public void altaCoche(){
-		gv.nuevoCoche(IO.in.readString(), (Categoria)IO.in.read(Categoria.class,""));	
+		gv.nuevoCoche(IO.in.readString("Descripción:"), (Categoria)IO.in.read(Categoria.class,"Categoría"));	
 	}
 	
 	
 	public void altaMoto(){
-		gv.nuevaMoto(IO.in.readString());
+		gv.nuevaMoto(IO.in.readString("Descripción:"));
 	}
 	
 	public void altaBicicleta(){
-		gv.nuevaBici(IO.in.readString());
+		gv.nuevaBici(IO.in.readString("Descripción:"));
 	}
 	
 	
