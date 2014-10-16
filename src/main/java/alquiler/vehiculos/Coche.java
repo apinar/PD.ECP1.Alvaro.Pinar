@@ -7,10 +7,6 @@ public class Coche extends Vehiculo{
 	private Categoria categoria;
 	
 	
-	public Coche(int id, String desc) {
-		super(id,desc);
-	}
-
 	public Coche(int id, String desc, Categoria a) {
 		super(id,desc);
 		this.setCategoria(a);
