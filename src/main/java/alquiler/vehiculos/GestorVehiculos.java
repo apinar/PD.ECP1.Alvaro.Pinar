@@ -9,18 +9,18 @@ public class GestorVehiculos {
 	
 	
 	public void nuevaMoto(String desc){
-		id++;
 		vehiculos.add(new Moto(id,desc));
+		id++;
 	}
 	
 	public void nuevoCoche(String desc, Categoria cat){
-		id++;
 		vehiculos.add(new Coche(id,desc,cat));
+		id++;
 	}
 	
 	public void nuevaBici(String desc){
-		id++;
 		vehiculos.add(new Bicicleta(id,desc));
+		id++;
 	}
 	
 	public List<Vehiculo> listar(){

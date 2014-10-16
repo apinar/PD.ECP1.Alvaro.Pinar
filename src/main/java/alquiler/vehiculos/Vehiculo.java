@@ -11,4 +11,12 @@ public abstract class Vehiculo {
 	
 	public abstract double coste(int dias);
 	
+	public int getId(){
+		return id;
+	}
+	
+	public String getDesc(){
+		return desc;
+	}
+	
 }
