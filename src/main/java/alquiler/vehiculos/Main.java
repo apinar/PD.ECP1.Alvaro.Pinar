@@ -6,9 +6,7 @@ import upm.jbb.IO;
 public class Main {
 
 	public static void main(String[] args) {
-			c = new Controlador();
-			
-			//IO.in.readInt();
+			Controlador c = new Controlador();
 			IO.in.addController(c);
 		}
 

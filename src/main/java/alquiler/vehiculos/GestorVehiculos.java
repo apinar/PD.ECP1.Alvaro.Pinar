@@ -23,12 +23,22 @@ public class GestorVehiculos {
 		id++;
 	}
 	
-	public List<Vehiculo> listar(){
-		return vehiculos;
+	public String listar(){
+		String info = "";
+		
+		
+		return info;
 	}
 	
 	public double calculaPrecio(int id, int dias){
 		return vehiculos.get(id).coste(dias);		
 	}
 	
+	public int getId(){
+		return id;
+	}
+	
+	public List<Vehiculo> getVehiculos(){
+		return vehiculos;
+	}
 }
